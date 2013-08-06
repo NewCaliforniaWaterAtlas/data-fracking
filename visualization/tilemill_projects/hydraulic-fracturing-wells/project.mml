@@ -1,0 +1,51 @@
+{
+  "bounds": [
+    -124.4531,
+    32.6024,
+    -114.4116,
+    42.0493
+  ],
+  "center": [
+    -121.322,
+    36.5891,
+    6
+  ],
+  "format": "png",
+  "interactivity": {
+    "layer": "frac-well",
+    "template_teaser": "Company: {{{well_name}}}<br>\nField: {{{logdate}}}<br>\nLocation ID: {{{locid}}}<br>\nLatitude: {{{lat}}}<br>\nLongitude: {{{long}}}"
+  },
+  "minzoom": 0,
+  "maxzoom": 13,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "geometry": "point",
+      "extent": [
+        -122.01326,
+        33.739378,
+        -117.76269,
+        39.5049527
+      ],
+      "id": "frac-well",
+      "class": "frac-wells",
+      "Datasource": {
+        "file": "/Users/Latsi/Documents/WaterAtlas/QGIS files/fracking-wells-modified.csv"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "frac-well"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "_basemap": "",
+  "name": "hydraulic-fracturing-wells",
+  "description": "1509 fracking wells",
+  "legend": "",
+  "attribution": "State Water Resources Control Board GAMA"
+}

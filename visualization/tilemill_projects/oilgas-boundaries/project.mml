@@ -1,0 +1,54 @@
+{
+  "bounds": [
+    -124.4861,
+    32.4078,
+    -114.9719,
+    41.7959
+  ],
+  "center": [
+    -121.322,
+    36.5891,
+    6
+  ],
+  "format": "png",
+  "interactivity": {
+    "layer": "oilgas",
+    "template_teaser": "Operation: {{{NAME}}}",
+    "fields": [
+      "NAME"
+    ]
+  },
+  "minzoom": 0,
+  "maxzoom": 13,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "geometry": "polygon",
+      "extent": [
+        -124.30014725335622,
+        32.679329939726756,
+        -115.2120700798863,
+        41.68175765623866
+      ],
+      "id": "oilgas",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/Latsi/Documents/WaterAtlas/QGIS files/SWRCB-Oil&GAS/AdminBdry.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "oilgas"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "_basemap": "",
+  "name": "oilgas-boundaries",
+  "description": "",
+  "attribution": "",
+  "legend": ""
+}

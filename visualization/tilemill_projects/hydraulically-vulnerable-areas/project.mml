@@ -1,0 +1,57 @@
+{
+  "bounds": [
+    -124.4531,
+    32.6024,
+    -114.4116,
+    42.0493
+  ],
+  "center": [
+    -121.9482,
+    37.8922,
+    6
+  ],
+  "format": "png",
+  "interactivity": {
+    "layer": "hva",
+    "template_teaser": "Recharge Basin: {{{RECHARGE}}}",
+    "fields": [
+      "RECHARGE"
+    ]
+  },
+  "minzoom": 0,
+  "maxzoom": 13,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "geometry": "polygon",
+      "extent": [
+        -123.9219799424707,
+        32.65102285267701,
+        -113.79905604721775,
+        41.9165169400475
+      ],
+      "id": "hva",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/Latsi/Documents/WaterAtlas/QGIS files/SWRCB-HydroVulnerableAreas/HVA.shp",
+        "id": "hva",
+        "project": "hydraulically-vulnerable-areas",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "hva"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "_basemap": "",
+  "name": "hydrogeologic-vulnerable-areas",
+  "description": "State Water Board staff created a map where published hydrogeologic information indicates soil or rock conditions that may be more vulnerable (or susceptible) to groundwater contamination",
+  "attribution": "MapBox for tiles",
+  "legend": "<div class='my-legend'>\n<div class='legend-title'>Legend</div>\n<div class='legend-scale'>\n  <ul class='legend-labels'>\n    <li><span style='background:#ce891a;'></span>Aquifers at Risk</li>\n    <li><span style='background:#12200f;'></span>Oil & Gas Boundaries</li>\n  </ul>\n</div>\n\n<div class='legend-source'>Source: <a href=\"http://geotracker.waterboards.ca.gov/gama/data_download.asp\">State Water Resources Control Board</a></div>\n</div>\n\n<style type='text/css'>\n  .wax-legend .legend-title {\n    text-align: left;\n    margin-bottom: 5px;\n    font-weight: bold;\n    font-size: 90%;\n    }\n  .wax-legend .legend-scale ul {\n    margin: 0;\n    margin-bottom: 5px;\n    padding: 0;\n    float: left;\n    list-style: none;\n    }\n  .wax-legend .legend-scale ul li {\n    font-size: 80%;\n    list-style: none;\n    margin-left: 0;\n    line-height: 18px;\n    margin-bottom: 2px;\n    }\n  .wax-legend ul.legend-labels li span {\n    display: block;\n    float: left;\n    height: 16px;\n    width: 30px;\n    margin-right: 5px;\n    margin-left: 0;\n    }\n  .wax-legend .legend-source {\n    font-size: 70%;\n    color: #999;\n    clear: both;\n    }\n  .wax-legend a {\n    color: #777;\n    }\n</style>"
+}
