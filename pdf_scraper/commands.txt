@@ -1,0 +1,7 @@
+wget --timeout=15 --tries=2 -i frack_well_pdfs_urls.txt
+
+
+test urls:
+
+http://geotracker.waterboards.ca.gov/gama/gamamap/public/frackreport.asp?pca=02120936
+http://geotracker.waterboards.ca.gov/gama/gamamap/fracfiles/0402120936-6232011-1041-Venoco%20Incorporated.pdf

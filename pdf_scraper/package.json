@@ -1,0 +1,8 @@
+{
+    "name": "draft pdf scraper"
+  , "version": "0.0.1"
+  , "dependencies": {
+        "request": "2.25.0"
+      , "cherrio": "0.12.0"
+    }
+}
